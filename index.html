@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== BOXICONS ===============-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+
+    <title>Portfolio website</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo"></a>
+
+        <div class="nav__menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="bx bx-home-alt"></i>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="bx bx-user"></i>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="bx bx-book"></i>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#works" class="nav__link">
+                <i class="bx bx-briefcase-alt-2"></i>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="bx bx-message-square-detail"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Theme change button -->
+        <i class="bx bx-moon change-theme" id="theme-button"></i>
+      </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+      <!--=============== HOME ===============-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__data">
+            <span class="home__greeting">Hello, I'm</span>
+            <h1 class="home__name">Edgardo Martínez</h1>
+            <h3 class="home__education">BackEnd Developer</h3>
+
+            <div class="home__buttons">
+              <a
+                download=""
+                href="./assets/pdf/Cv.pdf"
+                class="button button--ghost"
+              >
+                Download CV
+              </a>
+              <a href="#about" class="button">About me</a>
+            </div>
+          </div>
+
+          <div class="home__handle">
+            <img src="./assets/img/perfil.png" alt="" class="home__img" />
+          </div>
+
+          <div class="home__social">
+            <a
+              href="https://www.linkedin.com/in/edgardo-martinez-1577451bb/"
+              target="_blank"
+              class="home__social-link"
+            >
+              <i class="bx bxl-linkedin-square"></i>
+            </a>
+            <a
+              href="https://github.com/jose-edgardo"
+              target="_blank"
+              class="home__social-link"
+            >
+              <i class="bx bxl-github"></i>
+            </a>
+            <a href="#" class="home__social-link">
+              <i class="bx bxl-dribbble"></i>
+            </a>
+          </div>
+
+          <a href="#about" class="home__scroll">
+            <i class="bx bx-mouse home__scroll-icon"></i>
+            <span class="home__scroll-name">Scroll Down</span>
+          </a>
+        </div>
+      </section>
+
+      <!--=============== ABOUT ===============-->
+      <section class="about section" id="about">
+        <span class="section__subtitle">My Intro</span>
+        <h2 class="section__title">About Me</h2>
+
+        <div class="about__container container grid">
+          <img src="./assets/img/perfil.jpeg" alt="" class="about__img" />
+
+          <div class="about__data">
+            <div class="about__info">
+              <div class="about__box">
+                <i class="bx bx-award about__icon"></i>
+                <h3 class="about__subtitle">Experience</h3>
+                <span class="about__subtitle">6+ Months Working</span>
+              </div>
+
+              <div class="about__box">
+                <i class="bx bx-briefcase-alt about__icon"></i>
+                <h3 class="about__subtitle">Completed</h3>
+                <span class="about__subtitle">Computer systems engineer</span>
+              </div>
+
+              <div class="about__box">
+                <i class="bx bx-medal about__icon"></i>
+                <h3 class="about__subtitle">Aptitudes</h3>
+                <span class="about__subtitle"
+                  >Adaptation Teamwork Responsible</span
+                >
+              </div>
+            </div>
+
+            <p class="about__description">
+              Computer systems engineer, with knowledge and professional
+              experience in analysis, development and maintenance of software
+              systems, working on the most cutting-edge technologies, tools and
+              development procedures.
+            </p>
+
+            <a href="#contact" class="button">Contact Me</a>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== SKILLS ===============-->
+      <section class="skills section" id="skills">
+        <span class="section__subtitle">My abilities</span>
+        <h2 class="section__title">My Experience</h2>
+
+        <div class="skills__container container grid">
+          <div class="skills__content">
+            <h3 class="skills__title">Backend Developer</h3>
+
+            <div class="skills__box">
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bx-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">Node JS</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bx-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">Java</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bx-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">PHP</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bx-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">postgreSQL</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bx-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">MySQL</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bx-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">Firebase</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bx-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">MongoDB</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__content">
+            <h3 class="skills__title">Frontend developer</h3>
+
+            <div class="skills__box">
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bx-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">HTML</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bx-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">CSS</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bx-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">JavaScript</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bx-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">Bootstrap</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bx-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">Git</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bx-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">Angular</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== QUALIFICATION ===============-->
+      <section class="qualification section">
+        <span class="section__subtitle">My personal journey</span>
+        <h2 class="section__title">Qualification</h2>
+
+        <div class="qualification__container container">
+          <div class="qualification__tabs">
+            <div
+              class="qualification__button button--flex qualification__active"
+              data-target="#education"
+            >
+              <i class="bx bxs-graduation qualification__icon"></i>
+              Education
+            </div>
+
+            <div class="qualification__button button--flex" data-target="#work">
+              <i class="bx bxs-briefcase-alt qualification__icon"></i>
+              Work
+            </div>
+          </div>
+
+          <div class="qualification__sections">
+            <!--=============== QUALIFICATION CONTENT 1 ===============-->
+            <div
+              class="qualification__content qualification__active"
+              data-content
+              id="education"
+            >
+              <!--=============== QUALIFICATION 1 ===============-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">
+                    Computer Systems Engineer
+                  </h3>
+                  <span>Univeridad de El Salvador - University</span>
+                  <div class="qualification__calendar">
+                    <i class="bx bxs-calendar-alt"></i>
+                    2016 - 2022
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+
+              <!--=============== QUALIFICATION 2 ===============-->
+              <div class="qualification__data">
+                <div></div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+
+                <div>
+                  <h3 class="qualification__title">Node.js Developer Course</h3>
+                  <span>udemy - Online</span>
+                  <div class="qualification__calendar">
+                    <i class="bx bxs-calendar-alt"></i>
+                    2020
+                  </div>
+                </div>
+              </div>
+
+              <!--=============== QUALIFICATION 3 ===============-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Basic English course</h3>
+                  <span>Univeridad de El Salvador - Online</span>
+                  <div class="qualification__calendar">
+                    <i class="bx bxs-calendar-alt"></i>
+                    2018
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <!-- <span class="qualification__line"></span> -->
+                </div>
+                <div></div>
+              </div>
+            </div>
+
+            <!--=============== QUALIFICATION CONTENT 2 ===============-->
+            <div class="qualification__content" data-content id="work">
+              <!--=============== QUALIFICATION 1 ===============-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Backend Developer</h3>
+                  <span>DasTech - El Salvador</span>
+                  <div class="qualification__calendar">
+                    <i class="bx bxs-calendar-alt"></i>
+                    Feb 2021 - Jun 2021
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+
+              <!--=============== QUALIFICATION 2 ===============-->
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                </div>
+
+                <div>
+                  <h3 class="qualification__title">Node.js trainee</h3>
+                  <span>DasTech - El Salvador</span>
+                  <div class="qualification__calendar">
+                    <i class="bx bxs-calendar-alt"></i>
+                    Nov 2020 - Jan 2021
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== WORK ===============-->
+      <section class="work section" id="works">
+        <span class="section__subtitle">My Portfolio</span>
+        <h2 class="section__title">Recent Works</h2>
+
+        <div class="work__filters">
+          <span class="work__item active-work" data-filter="all">All</span>
+          <span class="work__item" data-filter=".web">Web</span>
+          <span class="work__item" data-filter=".movil">Movil</span>
+          <span class="work__item" data-filter=".design">Design</span>
+        </div>
+
+        <div class="work__container container grid">
+          <div class="work__card mix web">
+            <img src="./assets/img/chatApp.png" alt="" class="work__img" />
+
+            <h3 class="work__title">Chat App</h3>
+
+            <a
+              href="https://edgardo-chat-app.herokuapp.com/"
+              target="_blank"
+              class="work__button"
+            >
+              Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+            </a>
+          </div>
+
+          <div class="work__card mix movil">
+            <img src="./assets/img/work2.jpg" alt="" class="work__img" />
+
+            <h3 class="work__title">App Movil</h3>
+
+            <a href="#" class="work__button">
+              Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+            </a>
+          </div>
+
+          <div class="work__card mix design">
+            <img src="../../assets/img/work3.jpg" alt="" class="work__img" />
+
+            <h3 class="work__title">Brand design</h3>
+
+            <a href="#" class="work__button">
+              Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+            </a>
+          </div>
+
+          <div class="work__card mix web">
+            <img src="../../assets/img/work4.jpg" alt="" class="work__img" />
+
+            <h3 class="work__title">Web Design</h3>
+
+            <a href="#" class="work__button">
+              Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+            </a>
+          </div>
+
+          <div class="work__card mix movil">
+            <img src="../../assets/img/work5.jpg" alt="" class="work__img" />
+
+            <h3 class="work__title">App Movil</h3>
+
+            <a href="#" class="work__button">
+              Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== CONTACT ===============-->
+      <section class="contact section" id="contact">
+        <span class="section__subtitle">Get in touch</span>
+        <h2 class="section__title">Contact Me</h2>
+
+        <div class="contact__container container">
+          <div class="contact__content">
+            <h3 class="contact__title">Talk to me</h3>
+
+            <div class="contact__info">
+              <div class="contact__card">
+                <i class="bx bx-mail-send contact__card-icon"></i>
+                <h3 class="contact__card-title">Email</h3>
+                <span class="contact__card-data">
+                  edgardomartinez182@gmail.com
+                </span>
+                <a
+                  href="mailto:edgardomartinez182@gmail.com"
+                  target="_blank"
+                  class="contact__button"
+                >
+                  Write me
+                  <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+                </a>
+              </div>
+
+              <div class="contact__card">
+                <i class="bx bxl-whatsapp contact__card-icon"></i>
+                <h3 class="contact__card-title">Whatsapp</h3>
+                <span class="contact__card-data">6100-7237</span>
+
+                <a
+                  href="https://api.whatsapp.com/send?phone=50361007237"
+                  target="_blank"
+                  class="contact__button"
+                >
+                  Write me
+                  <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+                </a>
+              </div>
+
+              <div class="contact__card">
+                <i class="bx bxl-messenger contact__card-icon"></i>
+                <h3 class="contact__card-title">Messenger</h3>
+                <span class="contact__card-data">edgardo.martinez534</span>
+
+                <a
+                  href="https://m.me/edgardo.martinez534"
+                  target="_blank"
+                  class="contact__button"
+                >
+                  Write me
+                  <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+      <div class="footer__container container">
+        <h1 class="footer__title"></h1>
+
+        <ul class="footer__list">
+          <li>
+            <a href="#home" class="footer__link">Home</a>
+          </li>
+          <li>
+            <a href="#about" class="footer__link">About</a>
+          </li>
+          <li>
+            <a href="#works" class="footer__link">Work</a>
+          </li>
+        </ul>
+
+        <ul class="footer__social">
+          <a
+            href="https://www.facebook.com/edgardo.martinez534"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="bx bxl-facebook"></i>
+          </a>
+        </ul>
+
+        <span class="footer__copy"> &#169; All rigths reserved </span>
+      </div>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="./assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="./assets/js/mixitup.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
